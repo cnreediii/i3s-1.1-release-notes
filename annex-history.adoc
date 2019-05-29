@@ -5,5 +5,5 @@
 [width="90%",options="header"]
 |====================
 |Date |Release |Editor | Primary clauses modified |Descriptions
-| | | |
+| May 29, 2019 | 1.1 | C. Reed | Create new repo | New
 |====================

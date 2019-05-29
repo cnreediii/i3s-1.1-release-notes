@@ -1,0 +1,4 @@
+[[references]]
+== References
+
+There are no  normative documents that are new or updated references in the version of the I3S standard to which these Release Notes apply.

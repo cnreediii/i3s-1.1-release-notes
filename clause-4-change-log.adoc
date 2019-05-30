@@ -1,16 +1,20 @@
 [[change-log]]
 == Change Log
 
-* Section: Section number in the updated document
-* Description: Brief text describing the change
-* Purpose: the reason for the change:
+Notes on the "meaning" of column headings.
+
+* Source - Source of the chnage. Inthe case of the I3S Community Standard, the value is always "Other" indicating that the changes were submitted from an external source.
+* Identifier - As the chnages to the I3S Community Standards were submitted by the Esri I3S community, there are no Change Request or GitHub issue identifiers. Hence the value used in this document is N.A. for Not Applicable.
+* Type - Type of change. Always "A" for administrative.
+* Section - The section number modified in the updated document.
+* Description - Brief text describing the change.
+* Purpose - the reason for the change. Suggested reasons are:
 ** Clarity
 ** Consistency
 ** Interoperability
 ** Perfunctory
 ** Readability
 ** Usability
-
 
 === Change Table
 [[table_change_log]]

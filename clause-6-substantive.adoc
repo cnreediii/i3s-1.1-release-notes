@@ -8,15 +8,15 @@ This is a new optional class that describes the I3S bounding volume hierarchy. T
 In version 1.0, the property maxError was considered as a mandatory element in all of the examples and in the text. However, in the class property table this property was not highlighted as mandatory. This was an error in the version 1.0 document. This is corrected in version 1.1.
 
 === Clause 7.6.4.1 Class 3dSceneLayerInfo
-- spatialReference now has its own clause with greater detail. There is a cross reference from the table to the new clause.
-- heightModelInfo now has its own clause with greater detail. There is a cross reference from the table to the new clause. This includes an enumeration of the allowed height units.
--	New optional properties added to this class. These properties were added based on implementation experience.
---	ZFactor - Define conversion factor for elevation unit. This was added in support of point cloud scene layers.
---	elevationInfo - An object containing elevation drawing information. If absent, any content of the scene layer is drawn at its z coordinate. This was added in support of point cloud scene layers.
---	popupinfo - PopupInfo of the scene layer.
---	disablePopup - Indicates if client application will show the popup information.
---	statisticsInfo - Contains the statistical information for a layer.
- These are all new optional elements either added in support of Point Layers or requested by the implementation community. They do not affect backwards compatability.
+. spatialReference now has its own clause with greater detail. There is a cross reference from the table to the new clause.
+. heightModelInfo now has its own clause with greater detail. There is a cross reference from the table to the new clause. This includes an enumeration of the allowed height units.
+.	New optional properties added to this class. These properties were added based on implementation experience or in support of the new Point Cloud capability.
+..	ZFactor: Define conversion factor for elevation unit. This was added in support of point cloud scene layers.
+..	elevationInfo - An object containing elevation drawing information. If absent, any content of the scene layer is drawn at its z coordinate. This was added in support of point cloud scene layers.
+..	popupinfo: PopupInfo of the scene layer.
+..	disablePopup: Indicates if client application will show the popup information.
+..	statisticsInfo: Contains the statistical information for a layer.
+ These are all new optional elements either added in support of Point Cloud or requested by the implementation community. They do not affect backwards compatability.
  
 ===  Clause 7.6.5.6 obb - New Optional Class Defined
 This is an optional class that defines the properties for an oriented bounding box. ‘obb’ was in version 1.0 but its properties were not clearly defined in one location in the document. The new class provides a single table with all properties defined in one location.

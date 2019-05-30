@@ -19,6 +19,9 @@ In version 1.0, the property maxError was considered as a mandatory element in a
 
 These are all new optional elements either added in support of Point Cloud or requested by the implementation community. They do not affect backwards compatability.
 
+=== 7.6.4.11 elevationInfo - New Class
+This is a new class added in support of point cloud scene layers. _elevationInfo_ defines how content in a scene layer is aligned to the ground.
+
 === Clause 7.6.4.13 ServiceUpdateTimeStamp - New class
 ServiceUpdateTimeStamp is a new optional class in this revision. This object provides a time stamp about when the I3S service or the source of the service was created or updated.
  

@@ -1,18 +1,6 @@
 [[change-log]]
 == Change Log
 
-* Identifier: Change Request number or issue number and pull request/commit in GitHub
-//if an OGC Change Request, format as follows: URL[Change Request number]
-//if a GitHub issue, format as follows: URL[issue number], URL[pull request or commit short identifier]
-
-* Type:
-** A=Administrative
-** S=Substantive
-** C=Critical
-
-See <<Clause_Critical>> for more information on critical changes and
-<<Clause_Substantive>> for more information on substantive changes.
-
 * Section: Section number in the updated document
 * Description: Brief text describing the change
 * Purpose: the reason for the change:
@@ -38,4 +26,16 @@ See <<Clause_Critical>> for more information on critical changes and
 |Other | N.A.| A| Section 6.1 |Reworded all the design principals.|Readability and Clarity
 |Other | N.A.| A| Section 6.2 |1.	Reworded the Overview to enhance “readability”  
 2.	Added Point Clouds to the bullet list and to Table 1. |Readability and Clarity
+|Other | N.A.| A| Section 7.1 Coordinate Reference Systems | Added a new introductory informative paragraph for clarification and to reduce complexity in the text |Clarity
+|Other | N.A.| A| Section 7.1.2 CRS use and requirements in I3S | Add the clarifying sentence: “Note that all I3S profiles support writing 3D content in two modes: global and local. In global mode, only the geographic CRS WGS84 (EPSG 4326) is supported for both index and vertex positions.” | Clarity
+|Other | N.A.| A| Section 7.3.1 I3S - Indexing Model and Tree Structure | A number of grammatical changes to improve flow and “readability”. | Readability
+|Other | N.A.| A| Section 7.3.2 Geometry Model and Storage | A number of grammatical changes to improve document flow and “readability”. | Clarity and readability.
+|Other | N.A.| A| Section 7.3.3 Textures | A few edits that improve document flow and “readability” were applied. | Readability
+|Other | N.A.| A| 7.3.4	Attribute Model and Storage | A few edits that improve document flow and “readability” were applied. Links to related attribute classes were added. |Interoperability and Readability
+|Other | N.A.| A| 7.5 Level of Detail | A few edits that improve document flow and “readability” were applied. | Readability
+|Other | N.A.| A| 7.5.1 Discrete LoDs | A few edits that improve document flow and “readability” were applied. | Readability
+|Other | N.A.| A| 7.5.2 Representation of input data | A few edits that improve document flow and “readability” were applied. | Readability
+|Other | N.A.| A| Section 7.5.3.1 Node Switching | Added the following informative paragraph clarifying what node switching is:
+Node switching lets clients focus on the display of a node as a whole. A node switch occurs when the content from a node's children is used to replace the content of an existing node. This can include features, geometry, attributes and textures. Node switching can be helpful when the user needs to see more detailed information. | Clarity
+
 |=======================================================================

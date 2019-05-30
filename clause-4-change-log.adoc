@@ -41,5 +41,7 @@ Notes on the "meaning" of column headings.
 |Other | N.A.| A| 7.5.2 Representation of input data | A few edits that improve document flow and “readability” were applied. | Readability
 |Other | N.A.| A| Section 7.5.3.1 Node Switching | Added the following informative paragraph clarifying what node switching is:
 Node switching lets clients focus on the display of a node as a whole. A node switch occurs when the content from a node's children is used to replace the content of an existing node. This can include features, geometry, attributes and textures. Node switching can be helpful when the user needs to see more detailed information. | Clarity
+|Other | N.A.| A| Section 7.5.4 Levels of Detail Generation | Reformatted Table 2 to be consistent and to include Point Cloud Layers and (planned) Building Scene Layers. | Interoperability
+|Other | N.A.| A| Section 7.5.4.7 (now 7.6.4.7) Class IndexScheme | This class has been deprecated in the version 1.1 of the OGC I3S Community Standard. However, this class remains in the standard for backwards compatibility. Developers  should not  implement this class. This class will be removed in a future I3S version. | Deprecated
 
 |=======================================================================

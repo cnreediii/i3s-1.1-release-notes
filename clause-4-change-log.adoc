@@ -48,4 +48,10 @@ Node switching lets clients focus on the display of a node as a whole. A node sw
 •	Added a new table to better summarize available properties. | Clarity and Enhancement. See Substabtive Changes for more information
 |Other | N.A.| A| 7.6.3.1 Class SceneServiceInfo | A few edits that improve document flow and “readability” were applied. | Readability
 |Other | N.A.| A| 7.6.4.1 Class 3dSceneLayerInfo | Added a sentence to clarify the relationship between this class and sub-class drawingInfo. | Clarity. See also Substantive Changes for more information.
+|Other | N.A.| A| 7.6.4.2 Class Store | •	Added more informative text for the resourcePattern property. Old description was limited and confusing.
+•	Added more informative text for the normalReferenceFrame property. Old description was limited and confusing.
+•	Added more informative text for the lodType property. Old description was limited and confusing. | Clarity
+|Other | N.A.| A| 7.6.4.3 GeometryStore | •	Renamed as this class was incorrectly labeled in version 1.0. The class name should have been defaultGeometrySchema.
+•	Added more informative text for the topology property. Old description was limited and confusing | Clarity and Interoperability
+
 |=======================================================================

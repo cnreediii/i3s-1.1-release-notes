@@ -1,13 +1,6 @@
 [[change-log]]
 == Change Log
 
-=== KEY
-
-* Source:
-** Change Request
-** GitHub Issue
-** Other
-
 * Identifier: Change Request number or issue number and pull request/commit in GitHub
 //if an OGC Change Request, format as follows: URL[Change Request number]
 //if a GitHub issue, format as follows: URL[issue number], URL[pull request or commit short identifier]
@@ -37,5 +30,10 @@ See <<Clause_Critical>> for more information on critical changes and
 [cols="1a,1a,1a,2a,6a,2a",options="header"]
 |=======================================================================
 |Source      |Identifier     |Type                 |Section |Description |Purpose
-| | | | | |
+|Other | N.A.| A| Introduction|1.	Added additional informative text to the first and second paragraph.
+2.	Add Point Clouds to the bullet list.
+ |New informative content
+|Other | N.A.| A| 3.0 Terms and Definitions|1.	Added an additional informative sentence to Term 4.11 Oriented Bounding Box.
+2.	In support of the new Point Clouds Layer type, added terms and definitions for LiDAR, Near Infrared, and Point Clouds|New informative content
+
 |=======================================================================

@@ -36,5 +36,6 @@ See <<Clause_Critical>> for more information on critical changes and
 |Other | N.A.| A| 3.0 Terms and Definitions|1.	Added an additional informative sentence to Term 4.11 Oriented Bounding Box.
 2.	In support of the new Point Clouds Layer type, added terms and definitions for LiDAR, Near Infrared, and Point Clouds|New informative content
 |Other | N.A.| A| Section 6.1 |Reworded all the design principals.|Readability and Clarity
-|Other | N.A.| A| Section 6.2 |1.	Reworded the Overview to enhance “readability” + 2.	Added Point Clouds to the bullet list and to Table 1. |Readability and Clarity
+|Other | N.A.| A| Section 6.2 |1.	Reworded the Overview to enhance “readability”  
+2.	Added Point Clouds to the bullet list and to Table 1. |Readability and Clarity
 |=======================================================================

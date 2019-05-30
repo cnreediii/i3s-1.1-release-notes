@@ -6,15 +6,25 @@ These release notes describe in detail the changes and enhancements to the origi
 
 ===	Scope
 
-The proposed Work Item to the OGC I3S Community Standard includes:
+The completed Work Item changes to the OGC I3S Community Standard include:
 
--	Point Cloud Scene Layer type
+-	Point Cloud Scene Layer type.
 -	For existing layer types, the addition of:
 --	Oriented Bounding Boxes
 --	Attribute Domain Rules
 --	Service Update Timestamp
---	Index hash table for improved performance
+--	Index hash table for improved performance.
 -	Numerous editorial updates/corrections to improve readability.
+
+In relation to the last work item, the following changes were applied to all tables in the I3S Community Standard:
+
+. For all the class tables, in the previous version mandatory properties were identified with an “*”. In version 1.1, mandatory properties are highlighted using a bold type font.
+. In all property tables, the type designation “Float” is changed to “Number”.
+. In all property tables, the type designation “Integer” is changed to “Number”.
+. In all property tables, the type designation “Date” is changed to “String”
+. Added examples to most classes.
+
+None of these global chnages affect backwards compatibilty.
 
 ===	Document contributor contact points
 

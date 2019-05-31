@@ -61,4 +61,11 @@ Node switching lets clients focus on the display of a node as a whole. A node sw
 |Other | N.A.| A| 7.6.6 FeatureData | Added reference to Point Clouds | See Substantive Changes for more information.
 |Other | N.A.| A| 7.6.6.5	Class GeometryReferenceParams | Added a new optional property called “type”. The type denotes whether the following geometry is defined by using array buffer views (ArrayBufferView), as an internal reference (GeometryReference), as a reference to a shared Resource (SharedResourceReference) or embedded (Embedded). | Interoperability
 |Other | N.A.| A| 7.7.1.2 Class Texture | Added the ‘image’ property and reference to the ‘image class’ as this was missing from the table of properties in version 1.0 of the Community Standard. | Interoperability
+|Other | N.A.| A| 8.1 Textures and all subsections | A number of minor grammatical edits for clarity and additions to the informative content are incorporated. | Clarity and Readability
+|Other | N.A.| A| 8.3 Attributes including 8.3.1 and related sub-clauses | A number of minor grammatical edits for clarity and additions to the informative content are incorporated. | Clarity and Readability
+|Other | N.A.| A| 8.3.2 REST API for Accessing Attribute Resources | Minor grammatical edits were made. | Readability
+|Other | N.A.| A| 8.3.3 A typical usage pattern of the attributes REST API | Minor grammatical edits were made. Also, the attributeStorageInfo properties originally listed as bullets are now organized into a table for clarity and are available in clause 7.6.4.6. | Clarity and Readability
+|Other | N.A.| A| 8.3.4 Attribute Resources: Details | Minor grammatical edits were made. | Readability
+|Other | N.A.| A| 9.0 New chapter that provides details on the I3S Layer Structures | A variety of information on the various layer structures, such as Point Scene Layers, were scattered through the document and in the annexes. Further, there were no examples. Version 1.1 now provides details and implementation examples for each of the supported layer types. More information is provided below. | Clarity, Readability, Interoperability
+
 |=======================================================================

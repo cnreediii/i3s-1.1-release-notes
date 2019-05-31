@@ -67,5 +67,7 @@ Node switching lets clients focus on the display of a node as a whole. A node sw
 |Other | N.A.| A| 8.3.3 A typical usage pattern of the attributes REST API | Minor grammatical edits were made. Also, the attributeStorageInfo properties originally listed as bullets are now organized into a table for clarity and are available in clause 7.6.4.6. | Clarity and Readability
 |Other | N.A.| A| 8.3.4 Attribute Resources: Details | Minor grammatical edits were made. | Readability
 |Other | N.A.| A| 9.0 New chapter that provides details on the I3S Layer Structures | A variety of information on the various layer structures, such as Point Scene Layers, were scattered through the document and in the annexes. Further, there were no examples. Version 1.1 now provides details and implementation examples for each of the supported layer types. More information is provided below. | Clarity, Readability, Interoperability
-
+|Other | N.A.| A| 10.1 (Was 9.1) Flexibility | Minor grammatical edits were made for clarity. | Clarity
+|Other | N.A.| A| 10.2 (Was 9.2) Summary of I3S Defining Characteristics | Minor grammatical edits were made for clarity. | Clarity
+|Other | N.A.| A| 11 (Was 10.0) Persistence | Minor grammatical edits were made for clarity. | Clarity
 |=======================================================================

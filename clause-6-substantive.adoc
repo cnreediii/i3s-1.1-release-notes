@@ -1,6 +1,16 @@
 [[Clause_Substantive]]
 == Description of Substantive Changes
 
+=== Point Cloud Scene Layers
+The ability to code, stream, and store point cloud scene layers is a key update and extension of the I3S Community Standard. The addition of point cloud scene layers resulted in the addition of a number of new classes and profiles and profiles with extensions of the existing classes as defined in version 1.0 of the I3S Community Standard. 
+
+The addition of the Point Cloud Scene Layer capability to I3S resulted in a number of additions to the Community Standard
+
+- New optional properties added to Class 3dSceneLayerInfo (see below)
+- New optional properties added to Class LoD Selection Metrics (see below)
+- The addition of a new optional class elevationInfo (see below)
+- The addition of a new Annex: Annex I I3S Point Cloud Scene Layer Profile. This Annex provides the majority of the information on how to implement a I3S Point Cloud Scene Layer. This Annex defines profiles of a number of the core I3S classes.
+
 === Clause 7.4 Bounding Volume Hierarchy - New Optional Class Defined 
 This is a new optional class that describes the I3S bounding volume hierarchy. This class references two other classes. See obb below.
 

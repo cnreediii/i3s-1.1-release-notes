@@ -46,6 +46,9 @@ ServiceUpdateTimeStamp is a new optional class in this revision. This object pro
 ===  Clause 7.6.5.6 obb - New Optional Class Defined
 This is an optional class that defines the properties for an oriented bounding box. ‘obb’ was in version 1.0 but its properties were not clearly defined in one location in the document. The new class provides a single table with all properties defined in one location.
 
+=== 7.6.6.7	Class SingleComponentParams - Much greater detail and completed
+This class was expanded and enhanced to enable the ability to specify more than one material or one texture. In version 1.0, only one texture and/or one material was allowed to be specified for a given scene layer.
+
 === Clause 9.5 SLPK Hash Table - New Clause: 
 Scanning an SLPK (ZIP store) containing millions of documents is usually inefficient and slow. To improve first load and file scanning performances, a hash table file may be added to the SLPK.
 

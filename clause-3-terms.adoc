@@ -4,13 +4,13 @@ This document uses the terms defined in Sub-clause 5.3 of [OGC 06-121r8], which 
 
 For the purposes of this document, the following additional terms and definitions apply.
 
-===	administrative change
+===	Administrative change
 An administrative change is a change that does not alter the conformance abstract tests for any requirements. It includes typographical errors, changes in wording to improve clarity or consistency, and perfunctory changes such as changes in version numbers.
 
-=== critical Change
+=== Critical change
 A critical change is a change that alters requirements in a way that is known to cause reverse compatibility issues.
 
-=== substantive change
+=== Substantive change
 A substantive change is a change that alters requirements in a way that is not deemed to have a high risk for causing reverse compatibility issues.
 
 ===	Abbreviated terms

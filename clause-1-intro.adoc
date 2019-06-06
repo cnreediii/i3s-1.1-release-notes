@@ -24,7 +24,7 @@ In relation to the last work item, the following changes were applied to all tab
 . In all property tables, the type designation “Date” is changed to “String”
 . Added examples to most classes.
 
-None of these global chnages affect backwards compatibilty.
+None of these global changes affect backwards compatibilty.
 
 ===	Document contributor contact points
 

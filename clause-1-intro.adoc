@@ -2,11 +2,11 @@
 
 A single I3S data set, referred to as a Scene Layer, is a container for arbitrarily large amounts of heterogeneously distributed 3D geographic data. Scene Layers are designed to be used in mobile, desktop, and server-based workflows and can be accessed over the web or as local files.
 
-These release notes describe in detail the changes and enhancements to the original OGC I3S Community Standard. This is a 1.1 revision. This I3S revision including al the changes and enhancements are backwards compatible with the version 1.0 (17-14r5)
+These release notes describe in detail the changes and enhancements to the original OGC I3S Community Standard. These release notes describe the changes that comprise the 1.1 revision. This I3S revision, including all the changes and enhancements, is backwards compatible with version 1.0 (17-14r5) of the I3S Community Standard.
 
 ===	Scope
 
-The completed Work Item changes to the OGC I3S Community Standard include:
+The completed work item and changes to the OGC I3S Community Standard include:
 
 -	Point Cloud Scene Layer type.
 -	For existing layer types, the addition of:
@@ -35,4 +35,5 @@ All questions regarding this document should be directed to the contacts provide
 |====================
 |Name |Organization
 |Carl Reed | Carl Reed & Associates
+|Tamrat Belayneh| Esri
 |====================

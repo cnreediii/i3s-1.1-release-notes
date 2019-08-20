@@ -62,7 +62,7 @@ Node switching lets clients focus on the display of a node as a whole. A node sw
 •	Corrected an error in the clause title. In version 1.0, the title stated, “Node”. This should have been 3dNodeIndexDocument. All examples and other references were correct in version 1.0. | Clarity and Interoperability
 |Other | N.A.| A| 7.6.5.2 nodeReference | Updated table of properties to include property “obb”, which is new for this revision. | Interoperability
 |Other | N.A.| A| 7.6.5.4 Class Feature | This class is deprecated in version 1.1. FeatureData contains the properties originally in class Feature. | Deprecated
-|Other | N.A.| A| 7.6.5.5 Class LodSelection | The maxValue, avgValue, and minValue properties have been deprecated in version 1.1. These were optional properties. | Deprecated
+|Other | N.A.| A| 7.6.5.5 Class LodSelection | The maxValue, avgValue, and minValue properties have been deprecated in version 1.1. These were optional properties. See additional note below table.| Deprecated
 |Other | N.A.| A| 7.6.6 FeatureData | Added reference to Point Clouds | See Substantive Changes for more information.
 |Other | N.A.| A| 7.6.6.5	Class GeometryReferenceParams | Added a new optional property called “type”. The type denotes whether the following geometry is defined by using array buffer views (ArrayBufferView), as an internal reference (GeometryReference), as a reference to a shared Resource (SharedResourceReference) or embedded (Embedded). | Interoperability
 |Other | N.A.| A| 7.7.1.2 Class Texture | Added the ‘image’ property and reference to the ‘image class’ as this was missing from the table of properties in version 1.0 of the Community Standard. | Interoperability
@@ -78,4 +78,10 @@ Node switching lets clients focus on the display of a node as a whole. A node sw
 |Other | N.A.| A| 11 (Was 10.0) Persistence | Minor grammatical edits were made for clarity. | Clarity
 |=======================================================================
 
-*Additional Note*:The IndexScheme class has been deprecated as the class was useful only for informational reasons. Furthermore, it made it onerous for content generators to explicitly document the data partitioning scheme used to generate an I3S content. As an I3S client’s data discovery and traversal is purely driven by the node index document, information supplied by the IndexScheme class is not necessary for traversal nor for efficient loading of content. As a result, this class is deprecated.
+*Additional Note ion deprecated properties in Class LodSelection*
+
+The maxValue, avgValue, and minValue properties in Class LodSelection are deprecated. The LodSelection object provides information on a given metric determined during the cooking process of an I3S store. This metric can be used by the client to determine whether a representation is of the right quality level for rendering or whether a different representation is needed.
+
+*Additional Note on IndexScheme*
+
+The IndexScheme class has been deprecated as the class was useful only for informational reasons. Furthermore, it made it onerous for content generators to explicitly document the data partitioning scheme used to generate an I3S content. As an I3S client’s data discovery and traversal is purely driven by the node index document, information supplied by the IndexScheme class is not necessary for traversal nor for efficient loading of content. As a result, this class is deprecated.

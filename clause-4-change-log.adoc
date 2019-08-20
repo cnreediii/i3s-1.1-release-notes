@@ -78,7 +78,7 @@ Node switching lets clients focus on the display of a node as a whole. A node sw
 |Other | N.A.| A| 11 (Was 10.0) Persistence | Minor grammatical edits were made for clarity. | Clarity
 |=======================================================================
 
-*Additional Note ion deprecated properties in Class LodSelection*
+*Additional Note on deprecated properties in Class LodSelection*
 
 The maxValue, avgValue, and minValue properties in Class LodSelection are deprecated. The LodSelection object provides information on a given metric determined during the cooking process of an I3S store. This metric can be used by the client to determine whether a representation is of the right quality level for rendering or whether a different representation is needed.
 

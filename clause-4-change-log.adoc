@@ -45,7 +45,7 @@ A word on "deprecated". For the purposes of this I3S revision, deprecated proper
 |Other | N.A.| A| Section 7.5.3.1 Node Switching | Added the following informative paragraph clarifying what node switching is:
 Node switching lets clients focus on the display of a node as a whole. A node switch occurs when the content from a node's children is used to replace the content of an existing node. This can include features, geometry, attributes and textures. Node switching can be helpful when the user needs to see more detailed information. | Clarity
 |Other | N.A.| A| Section 7.5.4 Levels of Detail Generation | Reformatted Table 2 to be consistent and to include Point Cloud Layers and (planned) Building Scene Layers. | Interoperability
-|Other | N.A.| A| Section 7.5.4.7 (now 7.6.4.7) Class IndexScheme | This class has been deprecated in the version 1.1 of the OGC I3S Community Standard. However, this class remains in the standard for backwards compatibility. Developers  should not  implement this class. This class will be removed in a future I3S version. | Deprecated
+|Other | N.A.| A| Section 7.5.4.7 (now 7.6.4.7) Class IndexScheme | This class has been deprecated in the version 1.1 of the OGC I3S Community Standard. However, this class remains in the standard for backwards compatibility. Developers  should not  implement this class. This class will be removed in a future I3S version. See additional note below table.| Deprecated
 |Other | N.A.| A| Section 7.5.5 LoD Selection Metrics | •	Corrected an error in the example.
 •	Added definitions for maxScreenThresholdSQ, maxScreenThresholdSQ, screenSpaceRelative, distanceRangeFromDefaultCamera, effectiveDensity. The latter two definitions are new in version 1.1 of the OGC document. They were added in support of Point Clouds.
 •	Added a new table to better summarize available properties. | Clarity and Enhancement. See Substabtive Changes for more information
@@ -77,3 +77,5 @@ Node switching lets clients focus on the display of a node as a whole. A node sw
 |Other | N.A.| A| 10.2 (Was 9.2) Summary of I3S Defining Characteristics | Minor grammatical edits were made for clarity. | Clarity
 |Other | N.A.| A| 11 (Was 10.0) Persistence | Minor grammatical edits were made for clarity. | Clarity
 |=======================================================================
+
+*Additional Note*:The IndexScheme class has been deprecated as the class was useful only for informational reasons. Furthermore, it made it onerous for content generators to explicitly document the data partitioning scheme used to generate an I3S content. As an I3S client’s data discovery and traversal is purely driven by the node index document, information supplied by the IndexScheme class is not necessary for traversal nor for efficient loading of content. As a result, this class is deprecated.

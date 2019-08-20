@@ -53,7 +53,9 @@ Node switching lets clients focus on the display of a node as a whole. A node sw
 |Other | N.A.| A| 7.6.4.1 Class 3dSceneLayerInfo | Added a sentence to clarify the relationship between this class and sub-class drawingInfo. | Clarity. See also Substantive Changes for more information.
 |Other | N.A.| A| 7.6.4.2 Class Store | •	Added more informative text for the resourcePattern property. Old description was limited and confusing.
 •	Added more informative text for the normalReferenceFrame property. Old description was limited and confusing.
-•	Added more informative text for the lodType property. Old description was limited and confusing. | Clarity
+•	Added more informative text for the lodType property. Old description was limited and confusing. 
+•	Added more informative text for in lodType value descriptions (MeshPryamid, AutoThinning, Clustering, and Generalizing | Clarity
+|Other | N.A.| A| 7.6.4.2 Class Store | The property _indexScheme_ was deprecated. This was an optional property | Deprecated
 |Other | N.A.| A| 7.6.4.3 GeometryStore | •	Renamed as this class was incorrectly labeled in version 1.0. The class name should have been defaultGeometrySchema.
 •	Added more informative text for the topology property. Old description was limited and confusing | Clarity and Interoperability
 |Other | N.A.| A| 7.6.5.1 3dNodeIndexDocument | •	Updated table of properties to include property “obb”, which is new for this revision.

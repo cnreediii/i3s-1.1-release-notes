@@ -66,6 +66,7 @@ Node switching lets clients focus on the display of a node as a whole. A node sw
 |Other | N.A.| A| 7.6.6 FeatureData | Added reference to Point Clouds | See Substantive Changes for more information.
 |Other | N.A.| A| 7.6.6.5	Class GeometryReferenceParams | Added a new optional property called “type”. The type denotes whether the following geometry is defined by using array buffer views (ArrayBufferView), as an internal reference (GeometryReference), as a reference to a shared Resource (SharedResourceReference) or embedded (Embedded). | Interoperability
 |Other | N.A.| A| 7.7.1.2 Class Texture | Added the ‘image’ property and reference to the ‘image class’ as this was missing from the table of properties in version 1.0 of the Community Standard. | Interoperability
+|Other | N.A.| A| 7.7.1.4 Class Renderer | Added informative text to better define UniqueValue and ClassBreaks | Clarity.
 |Other | N.A.| A| 8.1 Textures and all subsections | A number of minor grammatical edits for clarity and additions to the informative content are incorporated. | Clarity and Readability
 |Other | N.A.| A| 8.3 Attributes including 8.3.1 and related sub-clauses | A number of minor grammatical edits for clarity and additions to the informative content are incorporated. | Clarity and Readability
 |Other | N.A.| A| 8.3.2 REST API for Accessing Attribute Resources | Minor grammatical edits were made. | Readability

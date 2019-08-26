@@ -86,4 +86,4 @@ Publishers (aka “cookers”) can add as many LodSelection objects as desired b
 
 *Additional Note on IndexScheme*
 
-The IndexScheme class has been deprecated as the class was useful only for informational reasons. Furthermore, it made it onerous for content generators to explicitly document the data partitioning scheme used to generate an I3S content. As an I3S client’s data discovery and traversal is purely driven by the node index document, information supplied by the IndexScheme class is not necessary for traversal nor for efficient loading of content. As a result, this class is deprecated.
+The IndexScheme class has been deprecated as the class was useful only for informational reasons. Furthermore, it made it onerous for content generators to explicitly document the data partitioning scheme used to generate an I3S content. As an I3S client’s data discovery and traversal is purely driven by the node index document, information supplied by the IndexScheme class is not necessary for traversal or for efficient loading of content. As a result, this class is deprecated.

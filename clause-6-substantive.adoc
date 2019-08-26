@@ -9,7 +9,7 @@ The addition of the Point Cloud Scene Layer capability to I3S resulted in a numb
 - New optional properties added to Class 3dSceneLayerInfo (see below)
 - New optional properties added to Class LoD Selection Metrics (see below)
 - The addition of a new optional class elevationInfo (see below)
-- A new major section: 9.4	Point Cloud Scene Layer that provids informative background and a structure example.
+- A new major section: 9.4	Point Cloud Scene Layer that provides informative background and a structure example.
 - The addition of a new Annex: Annex I - I3S Point Cloud Scene Layer Profile. This Annex provides the majority of the information on how to implement a I3S Point Cloud Scene Layer. This Annex defines profiles of a number of the core I3S classes: 3dSceneLayerInfo, attributeInfo, Store, Index, defaultGeometrySchema, vertexAttributes. 
 - A new Class _Node_ specifically for Point Cloud Scene Layers.
 - A new Class _Stats_ specifically for Point Cloud Scene Layers. This class contains statistics about each attribute. Statistics are useful to estimate attribute distribution and range.

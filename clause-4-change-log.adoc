@@ -17,7 +17,7 @@ Notes on the "meaning" of column headings.
 ** Readability
 ** Usability
 
-A word on "deprecated". For the purposes of this I3S revision, deprecated properties do not impact backwards compatibility. Deprecated properties in version 1.1 were optional in version 1.0. Further, deprecated properties identified in version 1.1 will remain in the Community Standard for a minimum of one year to ensure that any implementations of I3S have sufficient time to make any necessary modifications.
+A word on "deprecated". For the purposes of this I3S revision, deprecated properties do not impact backwards compatibility. Deprecated properties in version 1.1 were optional in version 1.0. Further, these deprecated classes/properties will remain in the OGC I3S Community Standard until such time as Version 2 of this Community Standard is approved. At that time, this deprecated class will be removed from the standard. This will aloow adequate time for any I3S implementations to remove deprecated elements from their product and applications.
 
 === Change Table
 [[table_change_log]]
